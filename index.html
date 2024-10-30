@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karl the Purchase Manager</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+    .container {
+      max-width: 600px;
+      padding: 20px;
+      text-align: center;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    h1 {
+      color: #1C64F2;
+    }
+    p {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Meet Karl, the Purchase Manager</h1>
+  <p>Karl is here to help you make informed purchasing decisions and streamline the procurement process. From supplier selection to cost management, Karl has you covered.</p>
+  <p>Click on the chatbot icon to start a conversation with Karl!</p>
+</div>
+
+<!-- Dify Chatbot Script -->
+<script>
+  window.difyChatbotConfig = {
+    token: 'qmEgZmuJZaVXvaej',
+    baseUrl: 'https://web-production-ae39.up.railway.app'
+  }
+</script>
+<script
+  src="https://web-production-ae39.up.railway.app/embed.min.js"
+  id="qmEgZmuJZaVXvaej"
+  defer>
+</script>
+<style>
+  #dify-chatbot-bubble-button {
+    background-color: #1C64F2 !important;
+  }
+  #dify-chatbot-bubble-window {
+    width: 24rem !important;
+    height: 40rem !important;
+  }
+</style>
+
+</body>
+</html>
